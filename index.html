@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-List</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <form action="" id="form">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control"><br>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" class="form-control"><br>
+            <label for="email" name ="email">Email</label>
+            <input type="text" id="email" class="form-control"><br>
+            <label for="password">Password</label>
+            <input type="text" id="password" class="form-control"><br>
+            <input type="submit" value="Add User" class="btn btn-outline-success">
+        </form><br><br>
+        <table class="table table-striped" width = 100%>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody id="user-list">
+                <tr>
+                    <td>Moynul Haque</td>
+                    <td>01705926227</td>
+                    <td>mainul.phase3@gmail.com</td>
+                    <td>@Hello1122</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/user.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
